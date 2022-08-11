@@ -1,0 +1,50 @@
+extends base.pug
+
+block scripts 
+    script(src="/static/index.js")
+
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+    section#intro 
+        div Welcome to ABCD Dance Academy 
+        div.small Eat Sleep Dance Repeat  
+
+    section#mission 
+        h2 Our mission 
+        div.card 
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/Images/dance1-removebg-preview.png")
+                div.card-content
+                    p This is the best dance academy ever 
+
+        div.card 
+            h3 Dance the way you like 
+            div.card-box
+                div.card-img
+                    img(src="/static/Images/dance4-removebg-preview.png")
+                div.card-content
+                    p This is the best dance academy ever 
+
+        div.card 
+            h3 Expert Teaching 
+            div.card-box
+                div.card-img
+                    img(src="/static/Images/dance3-removebg-preview.png")
+                div.card-content
+                    p This is the best dance academy ever 
+
+
+
+    section#sponsors 
+        h2 Our Sponsors
+        div#spons
+            img(src="/static/Images/AmazonlogoNew.png", alt="Amazon", class="spImage")  
+            img(src="/static/Images/Myntra_LogoNew.png", alt="Myntra", class="spImage")  
+            img(src="/static/Images/NikelogoNew.png", alt="Nike", class="spImage")  
+            img(src="/static/Images/StarbuckslogoNew.png", alt="Starbucks", class="spImage")  
+

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+h1{
+    text-align: center;
+    margin: 12px 0;
+    font-family: 'Josefin Sans';
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput{
+    display: block;
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #d63c3c;
+    border-radius: 10px;
+    outline: none;
+}
+
+.btn{
+    padding: 10px;
+    margin: 20px;
+    font-size: 15px;
+    border-radius: 11px;
+    border: 2px solid #d63c3c;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.container h1{
+
+}
+
+.container{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
