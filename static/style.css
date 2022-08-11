@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 30px;
+}
+
+#logo img{
+    height: 45px;
+    filter: invert();
+}
+
+#navbar{
+    background-color: black;
+    padding: 13px 30px;
+    font-family: 'Mouse Memoirs';
+    font-size: large;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;     By this the content of the navbar can get at center */
+    
+}
+
+#navbar li{
+    list-style: none;    
+}
+
+
+#navbar li a{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 10px 50px;
+}
+
+#navbar li a:hover{
+    color: goldenrod;
+}
+
+#intro {
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: 'Josefin Sans';
+    background: center/cover no-repeat url(/static/Images/danceBG3.jpg);
+
+    padding-top: 300px;
+}
+
+#intro div.small{
+    color: rgb(255 155 0);
+    padding: 5px;
+    font-size: 25px;
+}
+
+#mission {
+    height: 300px;
+    background-color: beige;
+    display: flex;
+}
+
+.card{
+    display: inline-block;
+    height: 210px;
+    width: 380px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 23px 20px;
+    /* background-color: white; */
+    background-color: #f2f24b38;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.card-img{
+    height: 110px;
+    padding: 25px 10px;
+}
+
+.card-content p{
+    padding: 0px 3px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card h3{
+    text-align: center;
+    font-family: 'Josefin Sans';
+    margin-top: 15px;
+}
+
+#mission h2{
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Josefin Sans';
+}
+
+
+#sponsors {
+    height: 300px;
+    background-color: beige;
+}
+
+#spons {
+    height: 200px;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#sponsors h2{
+    text-align: center;
+    padding-top: 12px;
+    background-color: beige;
+    font-family: 'Josefin Sans';
+}
+
+
+#footer {
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans';
+}

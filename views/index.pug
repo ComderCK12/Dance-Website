@@ -1,0 +1,64 @@
+doctype html 
+html 
+    head 
+        title ABCD Dance Academy 
+        style 
+            include ../static/style.css 
+    body 
+        nav#navbar 
+            ul 
+                div#logo
+                    img(src="/static/Images/logo.png")
+                    | ABCD 
+                li #[a(href="/") Home ]
+                li #[a(href="/") About ]
+                li #[a(href="/") Services ]
+                li #[a(href="/") Brochure ]
+                li #[a(href="/") Contact Us ]
+
+        section#intro 
+            div Welcome to ABCD Dance Academy 
+            div.small Eat Sleep Dance Repeat  
+
+        section#mission 
+            h2 Our mission 
+            div.card 
+                h3 Dance Perfection
+                div.card-box
+                    div.card-img
+                        img(src="/static/Images/dance1-removebg-preview.png")
+                    div.card-content
+                        p This is the best dance academy ever 
+
+            div.card 
+                h3 Dance the way you like 
+                div.card-box
+                    div.card-img
+                        img(src="/static/Images/dance4-removebg-preview.png")
+                    div.card-content
+                        p This is the best dance academy ever 
+
+            div.card 
+                h3 Expert Teaching 
+                div.card-box
+                    div.card-img
+                        img(src="/static/Images/dance3-removebg-preview.png")
+                    div.card-content
+                        p This is the best dance academy ever 
+
+
+
+        section#sponsors 
+            h2 Our Sponsors
+            div#spons
+                img(src="/static/Images/AmazonlogoNew.png", alt="Amazon", class="spImage")  
+                img(src="/static/Images/Myntra_LogoNew.png", alt="Myntra", class="spImage")  
+                img(src="/static/Images/NikelogoNew.png", alt="Nike", class="spImage")  
+                img(src="/static/Images/StarbuckslogoNew.png", alt="Starbucks", class="spImage")  
+
+        footer#footer 
+            | Copyright© 2022 ABCDdanceacademy.com | All rights reserved  
+
+
+        script 
+            include ../static/index.js
